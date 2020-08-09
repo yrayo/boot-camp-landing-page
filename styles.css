@@ -32,10 +32,27 @@ body {
 
 .featuring-wrapper {
   color: #11294b;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
 } 
+
+.row-icons {
+  color: #333;
+  line-height: 1.42857;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  color: #4b9cd3;
+  fill: #4b9cd3;
+}
+
+#asterick {
+  font: 12px;
+}
