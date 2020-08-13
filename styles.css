@@ -51,8 +51,19 @@ body {
 .icons {
   color: #4b9cd3;
   fill: #4b9cd3;
+  margin-bottom: 15px;
 }
 
 #asterick {
   font: 12px;
+}
+
+.statistics {
+  background-color: #f3f3f3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.only-section {
+  background-color: #f3f3f3;
 }
