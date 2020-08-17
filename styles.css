@@ -1,6 +1,7 @@
 body {
     background-color: #fff;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 0px;
     font-size: 16px;
 }
 
@@ -16,6 +17,13 @@ body {
 #cta-message-one, #cta-message-two {
   font: 16px;
   color: #fff;
+}
+
+#cta-message-one a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 #cta-message-two {
@@ -105,4 +113,107 @@ margin: 0;
   width: 95px;
   margin-bottom: 0;
   margin-top: 20px;
+}
+
+.trilogy-info {
+  margin-top: 45px;
+  padding: 10px;
+  background-color: #11294b;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+
+.border-outline {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  position: relative;
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 2px solid #fff;
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.trilogy-about-sentence {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.trilogy-sentence {
+  color: #f3f3f3;
+}
+
+.img-wrapper {
+  margin-top: 20px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.school-logo {
+  box-sizing: border-box;
+  width: 190px;
+  max-width: 190px;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.trilogy-logo {
+  box-sizing: border-box;
+  width: 150px;
+  max-width: 150px;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.team-work-fluid-image {
+  margin-top: 45px;
+}
+
+.virtual-class {
+  font-weight: bold;
+  background-color: #4B9CD3;
+  color: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 16px;
+}
+
+.get-info {
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 10px 0;
+  background: #0a304e;
+  text-transform: uppercase;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+#footer a {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
 }
